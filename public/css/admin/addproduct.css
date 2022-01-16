@@ -1,0 +1,48 @@
+.addproduct {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.page-content-wrapper {
+    width: 1104px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.file-upload {
+    width: 30%;
+}
+.help-block {
+    color: crimson;
+}
+.lam_cho_dep {
+    margin-bottom: 15px;
+    height: 3px;
+    width: 100%;
+    background-position-x: -30px;
+    background-size: 116px 3px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        #6fa6d6,
+        #6fa6d6 33px,
+        transparent 0,
+        transparent 41px,
+        #f18d9b 0,
+        #f18d9b 74px,
+        transparent 0,
+        transparent 82px
+    );
+}
+#description {
+    height: 200px;
+}
+
+.warning {
+    color: crimson;
+}

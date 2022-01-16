@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Neutra Text';
+    src: url(../../utils/fonts/NeutraText-Book.otf);
+}
+
+body {
+    font-family: 'Neutra Text';
+}
+
+.navbar {
+    background-color: white;
+    overflow: visible;
+}
+
+.navbar-brand img {
+    padding-top: 5px;
+    background-color: black;
+    height: 64px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar .login {
+}
+
+.login .logindropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #c4c3c3;
+    width: 200px;
+    left: -100px;
+    padding: 10px;
+}
+
+.login:hover .logindropdown {
+    display: block;
+}
+
+.sidebar {
+    padding: 10px;
+}
+
+.sidebar-item {
+    margin: 10px;
+    padding: 5px;
+    background-color: #bba587;
+    cursor: pointer;
+}
+
+.dashboard {
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(104, 93, 79);
+}
+
+.login {
+    cursor: pointer;
+}
+
+.login {
+    position: relative;
+}
+
+.login .logindropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #c4c3c3;
+    width: 200px;
+    left: -100px;
+    padding: 10px;
+}
+
+.login a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.login i {
+    cursor: pointer;
+}
+
+.login:hover .logindropdown {
+    display: block;
+    z-index: 1000;
+}
+
+.loginclicked {
+    display: block !important;
+}
+
+.login .logindropdown button {
+    background-color: white;
+}
+
+.account-title27 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.account-menu27 {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    margin: 10px;
+}
+
+.account-menu27 .active27 {
+    font-weight: bold;
+}
+
+.account-menu27 div {
+    cursor: pointer;
+}
+
+.info-container27 {
+    margin-bottom: 20px;
+}
+
+.info-container27 .subtitle27 {
+    font-weight: bold;
+    font-size: 17px;
+    color: chocolate;
+}
+
+.info-container27 .row * {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.address27 {
+    overflow: auto;
+}
+
+.info-container27 .btn-cnt27 {
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+.info-container27 .btn-cnt27 button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(155, 155, 155);
+}
+
+.mes-display27 {
+    display: block;
+}
+
+.mes-none27 {
+    display: none;
+}
+
+.account-info27 {
+    display: none;
+}

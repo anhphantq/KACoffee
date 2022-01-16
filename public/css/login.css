@@ -1,0 +1,51 @@
+p {
+    font-size: 0.7rem;
+}
+.p-3 {
+    color: #d8363a;
+}
+#mid {
+    margin-bottom: 100px;
+}
+.input-box {
+    margin: 31px auto;
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.input-box input {
+    width: 80%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.eye {
+    position: absolute;
+}
+#hide1 {
+    display: none;
+}
+.login-btn {
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid red;
+    cursor: pointer;
+    background: red;
+    color: #fff;
+}
+@media only screen and (max-width: 767.98px) {
+    #mid {
+        padding: 10px;
+    }
+    .login-btn {
+        margin-top: 10px;
+    }
+    .col1 {
+        margin-bottom: 20px;
+    }
+}

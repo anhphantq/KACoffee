@@ -1,0 +1,12 @@
+.has-siderbar {
+    margin-left: 220px;
+}
+.order-container {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 0 auto;
+    min-width: 0;
+    padding-bottom: 72px;
+}

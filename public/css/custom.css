@@ -1,0 +1,432 @@
+@font-face {
+    font-family: 'Neutra Text';
+    src: url(../utils/fonts/NeutraText-Book.otf);
+}
+
+body {
+    font-family: 'Neutra Text';
+}
+
+@media only screen and (min-width: 767.98px) {
+    .dropdown-menu.shop {
+        width: 50vw;
+    }
+
+    .dropdown-menu.subscription {
+        width: 25vw;
+    }
+
+    .dropdown-menu.about {
+        width: 15vw;
+    }
+
+    .dropdown-menu {
+        left: 10px;
+        border-top: 1px solid #c4c3c3 !important;
+    }
+
+    .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .footer-contact-info .contact {
+        border-right: 3px solid rgb(85, 84, 84);
+    }
+
+    .dropdown-menu.show {
+        left: 10px;
+    }
+
+    .navbar .nav-left .cart {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .navbar-toggler {
+        z-index: 10000;
+        color: black;
+    }
+    .navbar-collapse {
+        padding: 10px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 100vw;
+        height: 100vh;
+        z-index: 1000;
+    }
+
+    .navbar-collapse {
+        overflow: scroll;
+    }
+
+    .dropdown-menu {
+        background: none !important;
+        border: none;
+    }
+
+    .cart {
+        overflow: scroll !important;
+    }
+    .cart .cartdropdown {
+        width: 100vw !important;
+        left: 0px !important;
+        padding-top: 7vh;
+        z-index: 1;
+    }
+}
+
+.promotion p {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 80%;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: white;
+    height: 50px;
+    overflow: visible;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 3vw;
+    top: 0px;
+    z-index: 1000;
+}
+.navbar-brand img {
+    background-color: black;
+    width: 60px;
+    height: 74px;
+    border-bottom-right-radius: 15px;
+    z-index: 1000;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar .nav-left .cart i {
+    position: relative;
+}
+
+.navbar .nav-left .cart i .product-count {
+    font-family: 'Neutra Text';
+    position: absolute;
+    bottom: 0;
+    right: 10 px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15 px;
+    font-size: small;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nav-item .nav-link {
+    color: black;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: white;
+}
+
+.dropdown-menu .menu-title {
+    font-weight: bold;
+}
+
+.dropdown-menu .row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown-menu .submenu-title {
+    display: inline-block;
+    border-bottom: 1px dotted #c4c3c3;
+    font-weight: bold;
+    color: rgb(128, 125, 125);
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    font-weight: bold;
+}
+
+.dropdown-menu.about .social .submenu-item {
+    color: rgb(124, 124, 124);
+    font-size: 30px;
+    padding: 5px;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding-left: inherit;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-btn {
+    background: none;
+    color: black;
+    border: none;
+    margin: 5px;
+}
+
+.sales .promo {
+    position: relative;
+    margin: 30px;
+    width: 300px;
+    height: 460px;
+}
+
+.sales .promo-button {
+    background-color: #c4c3c3;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+
+.promo:hover .promo-button {
+    background-color: rgb(49, 47, 47);
+    color: white;
+}
+
+.sales a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sales .content {
+    margin-top: 50%;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.story.story-left {
+    padding: 2% 10% 2% 10%;
+    background-color: #301603;
+}
+
+.story.story-right {
+    padding: 2% 10% 2% 10%;
+    background-color: white;
+}
+
+.story div[class='title-left'] {
+    color: white;
+    padding: 5% 0 5% 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.story .content-left {
+    color: white;
+}
+
+.story div[class='title-right'] {
+    color: #301603;
+    padding: 5% 0 5% 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.story .content-right {
+    color: #301603;
+}
+
+.story img {
+    margin-top: 5%;
+    margin-bottom: 25%;
+}
+
+.story button {
+    position: absolute;
+    bottom: 5%;
+    display: block;
+    margin-left: auto;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: white;
+    background-color: chocolate;
+}
+
+.footer-stay-in-touch {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.footer-stay-in-touch .subscribe {
+    border: none;
+    color: white;
+    background-color: chocolate;
+    margin-bottom: 5%;
+}
+
+.footer-contact-info {
+    padding: 5%;
+}
+
+.footer-contact-info .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-contact-info .item {
+    font-size: 30px;
+    color: darkgray;
+    padding: 5px;
+}
+.p-2 {
+    width: 45%;
+}
+.help-block {
+    color: #d8363a;
+}
+
+.navbut {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: black !important;
+}
+
+.navbut:hover {
+    cursor: pointer;
+}
+
+/* LOGIN */
+.login {
+    position: relative;
+}
+
+.login .logindropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #c4c3c3;
+    width: 200px;
+    left: -100px;
+    padding: 10px;
+}
+
+.login a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.login i {
+    cursor: pointer;
+}
+
+.login:hover .logindropdown {
+    display: block;
+}
+
+.loginclicked {
+    display: block !important;
+}
+
+.login .logindropdown button {
+    background-color: white;
+}
+
+/* CART */
+
+.cart a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.cart i {
+    cursor: pointer;
+}
+
+.cart:hover .cartdropdown {
+    display: block;
+}
+
+.loginclicked {
+    display: block !important;
+}
+
+.cart .cartdropdown button {
+    background-color: white;
+}
+
+.cart .cartdropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: none;
+    width: 500px;
+    right: 0px;
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.cart .cartdropdown .title {
+    padding: 3px;
+    padding-left: 20px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.cart .productList {
+    padding: 20px;
+    color: chocolate;
+    max-height: fit-content;
+}
+
+.cart-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c4c3c3;
+}
+
+.change-amount {
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px;
+    margin: 2px;
+    border: 0.5px solid black;
+}

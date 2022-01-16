@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/my_subscription.css" />
+
+        <script src="https://kit.fontawesome.com/a10c199002.js" crossorigin="anonymous"></script>
+
+        <title>KACoffee | Deliver World Flavor</title>
+    </head>
+    <body>
+        
+        <div class="promotion">
+            <p> &#183 <i class="fas fa-truck"></i> Hi {{name}}! Free shipping on 3 cups or more within 20kms &#183
+            </p>
+        </div>
+
+        {{>navbar}}
+        <script>fetchState()</script>
+
+        <div class="container account-info">
+            <div class = 'account-title'>MY SUBSCRIPTION</div>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="row account-menu">
+                        <div class="col-3 col-md-12 link" href = "/my_profile"><i class="fas fa-user-astronaut icon d-md-none"></i> <span class="d-none d-md-inline-block">Profile</span></div>
+                        <hr class="d-none d-md-block">
+                        <div class="col-3 col-md-12 link" href = "/my_order"><i class="fas fa-shopping-cart icon d-md-none"></i> <span class="d-none d-md-inline-block">Orders</span></div>
+                        <hr class="d-none d-md-block">
+                        <div class="col-3 col-md-12 link active" href = "/my_subscription"><i class="fas fa-mug-hot icon d-md-none"></i> <span class="d-none d-md-inline-block">Subscription</span></div>
+                        <hr class="d-none d-md-block">
+                        <div class="col-3 col-md-12 link" href = "/my_voucher"><i class="fas fa-gift icon d-md-none"></i> <span class="d-none d-md-inline-block">Vouchers</span></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9">
+                    <div class="row">
+                        <div class="col-12 info-container">
+                            <div class="subtitle">YOUR POINT</div>
+                            <hr>
+                            <div id="point-display">
+                            
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src='js/profile-menu/profile.js'></script>
+        <script src='js/profile-menu/subscription.js'></script>
+
+
+        {{>footer}}
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>     
+    </body>
+</html>

@@ -1,0 +1,153 @@
+#sp {
+    padding-top: 7px;
+    margin-left: 20px;
+    color: rgb(189, 107, 9);
+}
+.ho {
+    display: inline-block;
+}
+#Home {
+    text-decoration-line: underline;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+#home {
+    /* width: 100%; */
+
+    height: 40px;
+    margin: 35px 0 0 100px;
+}
+
+.logo-filter {
+    min-width: 100px;
+    min-height: 115px;
+    /* border: 1px solid black; */
+}
+
+.product-grids-all {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: rgb(224, 224, 224);
+    margin-bottom: 5%;
+}
+
+.product-item {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    /* margin-right: 22px; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.AddCart {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+ul.products {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+ul.products-li {
+    flex-basis: 25%;
+    display: flex;
+}
+ul.products li img {
+    border-radius: 7px;
+}
+.image {
+    margin-bottom: 20px;
+    width: 240px;
+    height: 250px;
+    justify-content: center;
+}
+.product-name {
+    max-width: 240px;
+    height: 65px;
+}
+.product-cost {
+    font-size: larger;
+}
+.Soluong {
+    font-size: larger;
+}
+.number-product {
+    width: 100px;
+    float: right;
+    font-size: large;
+    text-align: center;
+}
+
+.Rating {
+    font-size: large;
+}
+.rateNumber {
+    margin-left: 50px;
+}
+
+ul.fil {
+    width: 80%;
+    max-width: 1050px;
+    min-width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+.fil-img {
+    height: 80px;
+}
+.fil {
+    display: inline-block;
+    list-style: none;
+}
+.checkbox {
+    display: none;
+}
+
+#filter {
+    /* min-width: 60%; */
+    margin: 0 0 0 5%;
+    font-size: large;
+}
+
+div.ratingStars {
+    display: inline-block;
+}
+
+.star {
+    float: right;
+    padding-right: 10px;
+    font-size: 23px;
+    color: yellow;
+}
+
+.logo-filter:hover {
+    cursor: pointer !important;
+}
+
+.logo-filter label:hover {
+    cursor: pointer !important;
+}
+
+.fil-label-name {
+    max-width: 90px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+    font-size: large;
+    /* border: 1px solid black; */
+}

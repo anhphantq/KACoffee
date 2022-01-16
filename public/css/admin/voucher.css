@@ -1,0 +1,17 @@
+.add-voucher-form {
+    margin: 5px;
+}
+
+.title {
+    margin-top: 5px;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.add-voucher-form input {
+    margin: 5px;
+}
+
+.add-voucher-form label {
+    margin: 5px;
+}

@@ -1,0 +1,15 @@
+.col-10 {
+    width: 83.3%;
+    padding-left: 6%;
+    /* border: 2px solid black; */
+}
+
+.div {
+    border: 2px solid black;
+}
+.help-block {
+    color: red;
+}
+.form-outline {
+    width: 70%;
+}

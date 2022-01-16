@@ -1,0 +1,19 @@
+table {
+    color: #333;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+th {
+    width: 200px;
+}
+
+table>:not(caption)>*>* {
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: #aba9a9;
+}
+
+table td {
+    font-size: 15px;
+}

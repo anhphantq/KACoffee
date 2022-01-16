@@ -1,0 +1,70 @@
+@media only screen and (max-width: 767.98px) {
+    .account-info {
+        margin-top: 50px;
+    }
+    .account-menu div {
+        text-align: center;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .account-menu .active {
+        background-color: rgb(201, 200, 200);
+    }
+}
+
+.account-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.account-menu {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    margin: 10px;
+}
+
+.account-menu .active {
+    font-weight: bold;
+}
+
+.account-menu div {
+    cursor: pointer;
+}
+
+.info-container {
+    margin-bottom: 20px;
+}
+
+.info-container .subtitle {
+    font-weight: bold;
+    font-size: 17px;
+    color: chocolate;
+}
+
+.info-container .row * {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.address {
+    overflow: auto;
+}
+
+.info-container .btn-cnt {
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+.info-container .btn-cnt button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(155, 155, 155);
+}
+
+.mes-display {
+    display: block;
+}
+
+.mes-none {
+    display: none;
+}

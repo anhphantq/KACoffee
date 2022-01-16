@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    {{! <meta http-equiv="X-UA-Compatible" content="IE=edge"> }}
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/blog.css">
+    <script
+            src="https://kit.fontawesome.com/a10c199002.js"
+            crossorigin="anonymous"
+        ></script>
+    <link rel="icon" href="images/favicon.jpg">
+    <title>KACoffee | Blog </title>
+</head>
+<body>
+    
+    <div class="promotion">
+        <p>
+            &#183 <i class="fas fa-truck"></i> Free shipping on 3
+            cups or more within 20kms &#183
+        </p>
+    </div>
+
+    {{>navbar}}
+    <script>fetchState()</script>
+
+    <!-- Banner -->
+
+    <div class="banner">
+        <div class="banner-background container-fluid">
+            <div class="banner-info container">
+                <p class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="banner-text text-uppercase">experiment britt</h1>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recipes -->
+
+    <section class="recipes">
+
+        <div class="container">
+            <div class="row new-posts">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="product-tile text-center">
+                        <div class="recipe-img border-left-right product-tile-filters">
+                            <a href="#" class="recipes-link blog__link-1">
+                                <img src="./images/blog/national-symbols-1.jpg" alt="Coffee drink with whipped cream" class="img-responsive">
+                            </a>
+                            <div class="col-md-12 recipes-title">
+                                <a href="#" class="recipes-link blog__link-1 recipes-title-1">Coffee, a National Symbol of Costa Rica</a>
+                            </div>
+                            <div class="col-md-12 px-0 text-center read-more">
+                                <a href="#" class="btn blog__link-1" title="">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="product-tile text-center">
+                        <div class="recipe-img border-left-right product-tile-filters">
+                            <a href="#" class="recipes-link blog__link-2">
+                                <img src="./images/blog/recipe-frozen-offshore-01.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="col-md-12 recipes-title">
+                                <a href="#" class="recipes-link blog__link-2 recipes-title-2">Frozen Offshore Espresso Coffee</a>
+                            </div>
+                            <div class="col-md-12 px-0 text-center read-more">
+                                <a href="#" class="btn blog__link-2" title="Read more about Frozen Offshore Espresso Coffee">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="product-tile text-center">
+                        <div class="recipe-img border-left-right product-tile-filters">
+                            <a href="#" class="recipes-link blog__link-3">
+                                <img src="./images/blog/sah-01.jpg" alt="Coffee drink with whipped cream" class="img-responsive">
+                            </a>
+                            <div class="col-md-12 recipes-title">
+                                <a href="#" class="recipes-link blog__link-3 recipes-title-3">Stay at Home Coffee Guide</a>
+                            </div>
+                            <div class="col-md-12 px-0 text-center read-more">
+                                <a href="#" class="btn blog__link-3" title="Read more about Stay at Home Coffee Guide">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="product-tile text-center">
+                        <div class="recipe-img border-left-right product-tile-filters">
+                            <a href="#" class="recipes-link blog__link-4">
+                                <img src="./images/blog/decaf-coffee-myths-01.jpg" alt="Coffee drink with whipped cream" class="img-responsive">
+                            </a>
+                            <div class="col-md-12 recipes-title">
+                                <a href="#" class="recipes-link blog__link-4 recipes-title-4">Decaf Coffee Myths</a>
+                            </div>
+                            <div class="col-md-12 px-0 text-center read-more">
+                                <a href="#" class="btn blog__link-4" title="Read more about Decaf Coffee Myths">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="d-flex align-items-center justify-content-center text-nowrap">
+                        <img src="./images/blog/leaf-left.png" alt="icon leaf left" class="icon icon-leaf-left">                        
+                        Older Posts
+                        <img src="./images/blog/leaf-right.png" alt="icon leaf right" class="icon icon-leaf-right">
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product-tile text-center">
+                        <div class="recipe-img border-left-right product-tile-filters">
+                            <a href="#" class="recipes-link">
+                                <img src="./images/blog/frenchpress-01.jpg" alt="Coffee drink with whipped cream" class="img-responsive">
+                            </a>
+                            <div class="col-md-12 recipes-title">
+                                <a href="#" class="recipes-link">Cafe Britt's Brewing Series: French Press</a>
+                            </div>
+                            <div class="col-md-12 px-0 text-center read-more">
+                                <a href="#" class="btn" title="Read more about Cafe Britt's Brewing Series: French Press">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product-tile text-center">
+                        <div class="recipe-img border-left-right product-tile-filters">
+                            <a href="#" class="recipes-link">
+                                <img src="./images/blog/recipe-Frozen-Frontside-Organic-Coffee-00.jpg" alt="Coffee drink with whipped cream" class="img-responsive">
+                            </a>
+                            <div class="col-md-12 recipes-title">
+                                <a href="#" class="recipes-link">Frozen Frontside Organic Coffee</a>
+                            </div>
+                            <div class="col-md-12 px-0 text-center read-more">
+                                <a href="#" class="btn" title="Read more about Frozen Frontside Organic Coffee">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product-tile text-center">
+                        <div class="recipe-img border-left-right product-tile-filters">
+                            <a href="#" class="recipes-link">
+                                <img src="./images/blog/aYearinCoffee-main-min.jpg" alt="Coffee drink with whipped cream" class="img-responsive">
+                            </a>
+                            <div class="col-md-12 recipes-title">
+                                <a href="#" class="recipes-link">A Year in Coffee</a>
+                            </div>
+                            <div class="col-md-12 px-0 text-center read-more">
+                                <a href="#" class="btn" title="Read more about A Year in Coffee">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product-tile text-center">
+                        <div class="recipe-img border-left-right product-tile-filters">
+                            <a href="#" class="recipes-link">
+                                <img src="./images/blog/theBestofBothWorlds-min2.jpg" alt="Coffee drink with whipped cream" class="img-responsive">
+                            </a>
+                            <div class="col-md-12 recipes-title">
+                                <a href="#" class="recipes-link">The Best of Both Worlds: Coffee & Chocolate</a>
+                            </div>
+                            <div class="col-md-12 px-0 text-center read-more">
+                                <a href="#" class="btn" title="Read more about The Best of Both Worlds: Coffee & Chocolate">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Article -->
+    <section class="articles-experiment">
+        <div class="article article-left">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 order-0">
+                        <div class="article-title-left text-center">JOURNEY TO ORIGIN</div>
+                        <div class="article-content-left mb-3">
+                            Let's go back to where each coffee story begins, when those coffee beans were still encased in coffee cherries. Who picked them? And where? All your questions will be answered, here.
+                        </div>
+                        <div class="text-center"><a href="#" class="article-btn">READ MORE</a></div>
+                    </div>
+                    <div class="col-12 col-md-6 order-1" style="position: relative;">
+                        <img src="./images/blog/blog-full-01-2017-min.jpg" alt="Hand hold a small plant" class="mx-auto" style="width: 70%; display: block;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="article article-right">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 order-1">
+                        <div class="article-title-right text-center">COFFEE 101</div>
+                        <div class="article-content-right mb-3">
+                            Gain a greater appreciation for the fuel that keeps you going everyday. In Coffee 101, you'll learn about all the things that make coffee such a fascinating drink and more.
+                        </div>
+                        <div class="text-center"><a href="#" class="article-btn">READ MORE</a></div>
+                    </div>
+                    <div class="col-12 col-md-6 order-0" style="position: relative;">
+                        <img src="./images/blog/blog-full-02.jpg" alt="Hand putting a coffee bean in a coffee basket" class="mx-auto" style="width: 70%; display: block;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="article article-left">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 order-0">
+                        <div class="article-title-left text-center">CHOCOLATE 101</div>
+                        <div class="article-content-left mb-3">
+                            Much like coffee, there are many factors that contribute to making superior chocolate. The type of cocoa bean, the origin and environment where the beans grow and how the bean is processed all determine how the gourmet chocolate tastes.
+                        </div>
+                        <div class="text-center"><a href="#" class="article-btn">READ MORE</a></div>
+                    </div>
+                    <div class="col-12 col-md-6 order-1" style="position: relative;">
+                        <img src="./images/blog/blog-full-03-2017-min.jpg" alt="Cocoa bean and cocoa fruits" class="mx-auto" style="width: 70%; display: block;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="article article-right">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 order-1">
+                        <div class="article-title-right text-center">RECIPES</div>
+                        <div class="article-content-right mb-3">
+                            Try using coffee in ways you never thought of or become your own barista and make delicious espresso drinks from home. Learn everything you need to know right here.
+                        </div>
+                        <div class="text-center"><a href="#" class="article-btn">READ MORE</a></div>
+                    </div>
+                    <div class="col-12 col-md-6 order-0" style="position: relative;">
+                        <img src="./images/blog/blog-full-06.jpg" alt="Making a cappuccino, pouring milk foam" class="mx-auto" style="width: 70%; display: block;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{>footer}}
+
+    <script src="/js/blog.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
